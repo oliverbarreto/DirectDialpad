@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F50E4B1D8C1DDB00EA8C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E4A1D8C1DDB00EA8C4F /* AppDelegate.swift */; };
+		A7F50E4D1D8C1DDB00EA8C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E4C1D8C1DDB00EA8C4F /* ViewController.swift */; };
+		A7F50E501D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E4E1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld */; };
+		A7F50E521D8C1DDB00EA8C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F50E511D8C1DDB00EA8C4F /* Assets.xcassets */; };
+		A7F50E551D8C1DDB00EA8C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F50E531D8C1DDB00EA8C4F /* Main.storyboard */; };
+		A7F50E601D8C1DDB00EA8C4F /* DirectDialpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E5F1D8C1DDB00EA8C4F /* DirectDialpadTests.swift */; };
+		A7F50E6B1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E6A1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F50E5C1D8C1DDB00EA8C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F50E3F1D8C1DDB00EA8C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F50E461D8C1DDB00EA8C4F;
+			remoteInfo = DirectDialpad;
+		};
+		A7F50E671D8C1DDB00EA8C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F50E3F1D8C1DDB00EA8C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F50E461D8C1DDB00EA8C4F;
+			remoteInfo = DirectDialpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7F50E471D8C1DDB00EA8C4F /* DirectDialpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectDialpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F50E4A1D8C1DDB00EA8C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7F50E4C1D8C1DDB00EA8C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7F50E4F1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DirectDialpad.xcdatamodel; sourceTree = "<group>"; };
+		A7F50E511D8C1DDB00EA8C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F50E541D8C1DDB00EA8C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F50E561D8C1DDB00EA8C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F50E5B1D8C1DDB00EA8C4F /* DirectDialpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectDialpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F50E5F1D8C1DDB00EA8C4F /* DirectDialpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectDialpadTests.swift; sourceTree = "<group>"; };
+		A7F50E611D8C1DDB00EA8C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F50E661D8C1DDB00EA8C4F /* DirectDialpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectDialpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F50E6A1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectDialpadUITests.swift; sourceTree = "<group>"; };
+		A7F50E6C1D8C1DDB00EA8C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F50E441D8C1DDB00EA8C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50E581D8C1DDB00EA8C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50E631D8C1DDB00EA8C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F50E3E1D8C1DDB00EA8C4F = {
+			isa = PBXGroup;
+			children = (
+				A7F50E491D8C1DDB00EA8C4F /* DirectDialpad */,
+				A7F50E5E1D8C1DDB00EA8C4F /* DirectDialpadTests */,
+				A7F50E691D8C1DDB00EA8C4F /* DirectDialpadUITests */,
+				A7F50E481D8C1DDB00EA8C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F50E481D8C1DDB00EA8C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F50E471D8C1DDB00EA8C4F /* DirectDialpad.app */,
+				A7F50E5B1D8C1DDB00EA8C4F /* DirectDialpadTests.xctest */,
+				A7F50E661D8C1DDB00EA8C4F /* DirectDialpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F50E491D8C1DDB00EA8C4F /* DirectDialpad */ = {
+			isa = PBXGroup;
+			children = (
+				A7F50E4A1D8C1DDB00EA8C4F /* AppDelegate.swift */,
+				A7F50E4C1D8C1DDB00EA8C4F /* ViewController.swift */,
+				A7F50E511D8C1DDB00EA8C4F /* Assets.xcassets */,
+				A7F50E531D8C1DDB00EA8C4F /* Main.storyboard */,
+				A7F50E561D8C1DDB00EA8C4F /* Info.plist */,
+				A7F50E4E1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld */,
+			);
+			path = DirectDialpad;
+			sourceTree = "<group>";
+		};
+		A7F50E5E1D8C1DDB00EA8C4F /* DirectDialpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F50E5F1D8C1DDB00EA8C4F /* DirectDialpadTests.swift */,
+				A7F50E611D8C1DDB00EA8C4F /* Info.plist */,
+			);
+			path = DirectDialpadTests;
+			sourceTree = "<group>";
+		};
+		A7F50E691D8C1DDB00EA8C4F /* DirectDialpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F50E6A1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift */,
+				A7F50E6C1D8C1DDB00EA8C4F /* Info.plist */,
+			);
+			path = DirectDialpadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F50E461D8C1DDB00EA8C4F /* DirectDialpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F50E6F1D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpad" */;
+			buildPhases = (
+				A7F50E431D8C1DDB00EA8C4F /* Sources */,
+				A7F50E441D8C1DDB00EA8C4F /* Frameworks */,
+				A7F50E451D8C1DDB00EA8C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectDialpad;
+			productName = DirectDialpad;
+			productReference = A7F50E471D8C1DDB00EA8C4F /* DirectDialpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F50E5A1D8C1DDB00EA8C4F /* DirectDialpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F50E721D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpadTests" */;
+			buildPhases = (
+				A7F50E571D8C1DDB00EA8C4F /* Sources */,
+				A7F50E581D8C1DDB00EA8C4F /* Frameworks */,
+				A7F50E591D8C1DDB00EA8C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F50E5D1D8C1DDB00EA8C4F /* PBXTargetDependency */,
+			);
+			name = DirectDialpadTests;
+			productName = DirectDialpadTests;
+			productReference = A7F50E5B1D8C1DDB00EA8C4F /* DirectDialpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F50E651D8C1DDB00EA8C4F /* DirectDialpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F50E751D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpadUITests" */;
+			buildPhases = (
+				A7F50E621D8C1DDB00EA8C4F /* Sources */,
+				A7F50E631D8C1DDB00EA8C4F /* Frameworks */,
+				A7F50E641D8C1DDB00EA8C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F50E681D8C1DDB00EA8C4F /* PBXTargetDependency */,
+			);
+			name = DirectDialpadUITests;
+			productName = DirectDialpadUITests;
+			productReference = A7F50E661D8C1DDB00EA8C4F /* DirectDialpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F50E3F1D8C1DDB00EA8C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Oliver Barreto";
+				TargetAttributes = {
+					A7F50E461D8C1DDB00EA8C4F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A7F50E5A1D8C1DDB00EA8C4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A7F50E461D8C1DDB00EA8C4F;
+					};
+					A7F50E651D8C1DDB00EA8C4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A7F50E461D8C1DDB00EA8C4F;
+					};
+				};
+			};
+			buildConfigurationList = A7F50E421D8C1DDB00EA8C4F /* Build configuration list for PBXProject "DirectDialpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F50E3E1D8C1DDB00EA8C4F;
+			productRefGroup = A7F50E481D8C1DDB00EA8C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F50E461D8C1DDB00EA8C4F /* DirectDialpad */,
+				A7F50E5A1D8C1DDB00EA8C4F /* DirectDialpadTests */,
+				A7F50E651D8C1DDB00EA8C4F /* DirectDialpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F50E451D8C1DDB00EA8C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F50E521D8C1DDB00EA8C4F /* Assets.xcassets in Resources */,
+				A7F50E551D8C1DDB00EA8C4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50E591D8C1DDB00EA8C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50E641D8C1DDB00EA8C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F50E431D8C1DDB00EA8C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F50E4D1D8C1DDB00EA8C4F /* ViewController.swift in Sources */,
+				A7F50E501D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld in Sources */,
+				A7F50E4B1D8C1DDB00EA8C4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50E571D8C1DDB00EA8C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F50E601D8C1DDB00EA8C4F /* DirectDialpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50E621D8C1DDB00EA8C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F50E6B1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F50E5D1D8C1DDB00EA8C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F50E461D8C1DDB00EA8C4F /* DirectDialpad */;
+			targetProxy = A7F50E5C1D8C1DDB00EA8C4F /* PBXContainerItemProxy */;
+		};
+		A7F50E681D8C1DDB00EA8C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F50E461D8C1DDB00EA8C4F /* DirectDialpad */;
+			targetProxy = A7F50E671D8C1DDB00EA8C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7F50E531D8C1DDB00EA8C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F50E541D8C1DDB00EA8C4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F50E6D1D8C1DDB00EA8C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7F50E6E1D8C1DDB00EA8C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7F50E701D8C1DDB00EA8C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DirectDialpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7F50E711D8C1DDB00EA8C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DirectDialpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7F50E731D8C1DDB00EA8C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DirectDialpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectDialpad.app/Contents/MacOS/DirectDialpad";
+			};
+			name = Debug;
+		};
+		A7F50E741D8C1DDB00EA8C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DirectDialpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectDialpad.app/Contents/MacOS/DirectDialpad";
+			};
+			name = Release;
+		};
+		A7F50E761D8C1DDB00EA8C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DirectDialpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DirectDialpad;
+			};
+			name = Debug;
+		};
+		A7F50E771D8C1DDB00EA8C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DirectDialpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DirectDialpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F50E421D8C1DDB00EA8C4F /* Build configuration list for PBXProject "DirectDialpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F50E6D1D8C1DDB00EA8C4F /* Debug */,
+				A7F50E6E1D8C1DDB00EA8C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F50E6F1D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F50E701D8C1DDB00EA8C4F /* Debug */,
+				A7F50E711D8C1DDB00EA8C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7F50E721D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F50E731D8C1DDB00EA8C4F /* Debug */,
+				A7F50E741D8C1DDB00EA8C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7F50E751D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F50E761D8C1DDB00EA8C4F /* Debug */,
+				A7F50E771D8C1DDB00EA8C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7F50E4E1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7F50E4F1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodel */,
+			);
+			currentVersion = A7F50E4F1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodel */;
+			path = DirectDialpad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7F50E3F1D8C1DDB00EA8C4F /* Project object */;
+}
