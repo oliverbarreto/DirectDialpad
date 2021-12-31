@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7B2C4B31D8D9F93008E5891 /* Dialer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2C4B21D8D9F93008E5891 /* Dialer.swift */; };
 		A7F50E4B1D8C1DDB00EA8C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E4A1D8C1DDB00EA8C4F /* AppDelegate.swift */; };
 		A7F50E4D1D8C1DDB00EA8C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E4C1D8C1DDB00EA8C4F /* ViewController.swift */; };
 		A7F50E501D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E4E1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld */; };
@@ -14,6 +15,7 @@
 		A7F50E551D8C1DDB00EA8C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F50E531D8C1DDB00EA8C4F /* Main.storyboard */; };
 		A7F50E601D8C1DDB00EA8C4F /* DirectDialpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E5F1D8C1DDB00EA8C4F /* DirectDialpadTests.swift */; };
 		A7F50E6B1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50E6A1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift */; };
+		A7FD05671D918F2100B86CDB /* CustomWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD05661D918F2100B86CDB /* CustomWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7B2C4B21D8D9F93008E5891 /* Dialer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dialer.swift; sourceTree = "<group>"; };
 		A7F50E471D8C1DDB00EA8C4F /* DirectDialpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectDialpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F50E4A1D8C1DDB00EA8C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F50E4C1D8C1DDB00EA8C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		A7F50E661D8C1DDB00EA8C4F /* DirectDialpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectDialpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F50E6A1D8C1DDB00EA8C4F /* DirectDialpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectDialpadUITests.swift; sourceTree = "<group>"; };
 		A7F50E6C1D8C1DDB00EA8C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FD05661D918F2100B86CDB /* CustomWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				A7F50E4A1D8C1DDB00EA8C4F /* AppDelegate.swift */,
 				A7F50E4C1D8C1DDB00EA8C4F /* ViewController.swift */,
+				A7FD05661D918F2100B86CDB /* CustomWindowController.swift */,
 				A7F50E511D8C1DDB00EA8C4F /* Assets.xcassets */,
 				A7F50E531D8C1DDB00EA8C4F /* Main.storyboard */,
 				A7F50E561D8C1DDB00EA8C4F /* Info.plist */,
 				A7F50E4E1D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld */,
+				A7B2C4B21D8D9F93008E5891 /* Dialer.swift */,
 			);
 			path = DirectDialpad;
 			sourceTree = "<group>";
@@ -188,18 +194,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Oliver Barreto";
 				TargetAttributes = {
 					A7F50E461D8C1DDB00EA8C4F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					A7F50E5A1D8C1DDB00EA8C4F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A7F50E461D8C1DDB00EA8C4F;
 					};
 					A7F50E651D8C1DDB00EA8C4F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A7F50E461D8C1DDB00EA8C4F;
 					};
 				};
@@ -257,7 +266,9 @@
 			files = (
 				A7F50E4D1D8C1DDB00EA8C4F /* ViewController.swift in Sources */,
 				A7F50E501D8C1DDB00EA8C4F /* DirectDialpad.xcdatamodeld in Sources */,
+				A7FD05671D918F2100B86CDB /* CustomWindowController.swift in Sources */,
 				A7F50E4B1D8C1DDB00EA8C4F /* AppDelegate.swift in Sources */,
+				A7B2C4B31D8D9F93008E5891 /* Dialer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +329,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -363,8 +376,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -383,6 +398,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -395,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -407,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -419,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectDialpad.app/Contents/MacOS/DirectDialpad";
 			};
 			name = Debug;
@@ -432,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectDialpad.app/Contents/MacOS/DirectDialpad";
 			};
 			name = Release;
@@ -444,6 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DirectDialpad;
 			};
 			name = Debug;
@@ -456,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.testapp.DirectDialpadUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DirectDialpad;
 			};
 			name = Release;
@@ -479,6 +501,7 @@
 				A7F50E711D8C1DDB00EA8C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F50E721D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpadTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +510,7 @@
 				A7F50E741D8C1DDB00EA8C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F50E751D8C1DDB00EA8C4F /* Build configuration list for PBXNativeTarget "DirectDialpadUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +519,7 @@
 				A7F50E771D8C1DDB00EA8C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
